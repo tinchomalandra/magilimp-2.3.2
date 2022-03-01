@@ -33,7 +33,7 @@ export default function mostrarProductos(array) {
                 title: '¡Producto agregado al carrito!',
                 showConfirmButton: false,
                 timer: 1500
-              })
+            })
         });
     });
 }
