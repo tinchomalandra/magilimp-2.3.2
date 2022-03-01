@@ -27,6 +27,13 @@ export default function mostrarProductos(array) {
 
         boton.addEventListener('click', () => {
             agregarAlCarrito(producto.id);
+            Swal.fire({
+                position: 'top-end',
+                icon: 'success',
+                title: '¡Producto agregado al carrito!',
+                showConfirmButton: false,
+                timer: 1500
+              })
         });
     });
 }
